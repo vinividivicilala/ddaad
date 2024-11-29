@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  height: 100%;
+}
+
+.highlighted {
+  @apply text-primary bg-[#2bb24c1a] dark:bg-[#96de9812] px-1;
+}
+
+.progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 5px;
+  background: #2b9868;
+  transform-origin: 0%;
+  z-index: 9999;
+}
